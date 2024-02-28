@@ -1,0 +1,38 @@
+/*
+Selector natural
+h1 {
+    font-size: smaller;
+} */
+
+/*
+Margin - Margen (Externo)
+Padding - Relleno (Interno)
+*/
+
+* {
+    margin: 0;
+}
+/* Selector de clase */
+.caja {
+    background: #000000;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+
+    /*Alinar elementos*/
+    display: flex;
+    justify-content: center; /*Horizontal*/
+    align-items: center; /*Vertical*/
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; /*Cambia el tamaño*/
+    gap: 10px; /*Espaciado en hijos*/
+}
+
+/*Solo se afecta al h1*/
+.caja > h1 {
+    color: #FFFFFF;
+}
