@@ -1,5 +1,6 @@
 body{
     padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif code;
 }
 
 .containerAll {
@@ -16,10 +17,29 @@ body{
 
 .container{
     width: 40%;
-    background-color: #C4C9D1;
+    background-color: #888178;
     border-radius: 20px;
     padding: 5px;
     text-align: center;
     color: #FFFF;
     font-weight: lighter;
+}
+
+.opciones {
+    background-color: rgba(880000, 008100, 000078, 13%);
+    border: none;
+    padding: 10px 0 10px 0;
+}
+
+.opciones >input{
+    border: white;
+    border-radius: 5px;
+}
+
+.boton{
+    margin: 5px 0 5px 0;
+    border: white;
+    border-radius: 5px;
+    height: 25px;
+    width: 70px;
 }
