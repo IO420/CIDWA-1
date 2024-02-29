@@ -1,0 +1,103 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+/* Nav */
+nav{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgNav{
+    height: 30px;
+    padding: 20px;
+}
+
+.opcionesNav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.opcionesNav li {
+    list-style: none;
+    margin: 0 30px 0 0;
+}
+.opcionesNav li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/*Principal*/
+main{
+    background-color: #F6F6F6;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 100px;
+}
+.imgPrincipal{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.imgtenis{
+    height: 200px;
+    border-radius: 20px;
+}
+.opcionesTenis{
+    display: flex;
+    gap: 50px;
+}
+.tarjetasTenis{
+    box-shadow: 0 0 5px black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.tarjetasTenis:hover{
+    transition: .4s;
+    box-shadow: 0 0 15px black;
+}
+.tarjetasTenis p {
+    text-transform: uppercase;
+}
+
+/*Footer*/
+footer{
+    background-color: #000000;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 60px;
+}
+
+.listafooter a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer p{
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 20px 0 -10px 0;
+}
+
+
+.tienda{
+    text-transform: uppercase;
+    font-weight: bold;
+}
