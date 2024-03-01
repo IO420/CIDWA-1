@@ -5,12 +5,11 @@ body{
     flex-direction: column;
 }
 header{
-    color: white;
     background-color: #012f61;
     display: flex;
     justify-content: space-between; /*Coloca las imagenes a un costado*/
     align-items: center;
-    padding: 100px 40px 100px 40px
+    padding: 40px 40px 40px 40px
 }
 header img {
     filter: brightness(0)invert(1);
