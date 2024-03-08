@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    gap: 20px;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "a a b b b c c"
+    "d d e e f f f"
+    ;
+    background-color: #eceded;
+    padding: 10px 20px;
+}
+
+.item{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.iphone-blue{
+    grid-area: a;
+}
+.iphone-blue img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.watches-three{
+    grid-area: b;
+    display: flex;
+    justify-content: center;
+}
+.watches-three img{
+    object-fit: cover;
+}
+
+.airtags{
+    grid-area: c;
+}
+.airtags img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
